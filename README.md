@@ -8,47 +8,44 @@
 
 # Legacy Clicker
 
-A fast, lightweight, customizable auto-clicker for Windows.
+A fast, lightweight auto-clicker for Windows.
 
-## Project status
+## Status
 
-Legacy Clicker is currently alpha software. The public build works as an early preview, while advanced settings remain experimental and may be unstable.
+Right now, Legacy Clicker is in alpha. The main build works well, but some advanced settings are still experimental and might act up.
 
-## Current features
+## Features
 
 - Fast automatic clicking
-- Customizable click settings
-- Simple interface for quick setup
-- Advanced options for additional control
-- Standalone Windows executable
+- Adjustable click rates and settings
+- Clean, straightforward interface
+- Advanced options for more control
+- Simple standalone Windows executable
 
-## Download
+## Getting the latest build
 
-Download the current alpha build from the [releases page](https://github.com/LunarLegacyStudios/Legacy-Clicker/releases).
+Grab the current alpha build directly from the [releases page](https://github.com/LunarLegacyStudios/Legacy-Clicker/releases).
 
-The current executable is unsigned. Windows or antivirus software may warn about it. Only download builds from this repository.
+Since the executable isn't code-signed yet, Windows or your antivirus might throw a warning. Just make sure you're downloading it straight from here.
 
-## Next build
+## What's next
 
-The next build is focused on:
+- Stabilizing and testing advanced settings
+- General bug fixes and reliability improvements
+- Detailed release notes
+- Code signing the executable down the road
 
-- Testing and stabilizing advanced settings
-- Improving reliability and general behavior
-- Publishing complete release notes
-- Signing the Windows executable when possible
-- Expanding the documented feature list as features are verified
+Take a look at the [CHANGELOG.md](CHANGELOG.md) for past updates and what's coming.
 
-See [CHANGELOG.md](CHANGELOG.md) for release history and planned changes.
+## Antivirus warnings
 
-## Antivirus false positives
+Legacy Clicker is bundled with PyInstaller. Because malware sometimes uses the same packer, some security software flags it by mistake. 
 
-Legacy Clicker is packaged with PyInstaller. Some antivirus products flag PyInstaller executables because many unrelated programs use the same packaging method. Reports are submitted to vendors when a false positive is confirmed.
+## Contributing & Security
 
-## Contributing and security
-
-- Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
-- Report security problems using [SECURITY.md](SECURITY.md).
+- Check out [CONTRIBUTING.md](CONTRIBUTING.md) if you want to pull request.
+- Found a security issue? Head over to [SECURITY.md](SECURITY.md).
 
 ## License
 
-See [LICENSE](LICENSE) for the repository license.
+Licensed under the [LICENSE](LICENSE) file.
