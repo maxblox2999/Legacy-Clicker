@@ -1,34 +1,7 @@
 # Changelog
 
-All notable changes to Legacy Clicker are documented here.
+## 0.1 alpha (2026-07-28)
 
-## Unreleased
+First public Windows build. Automatic clicking and adjustable click settings are available. Advanced settings were not fully tested and may be buggy or fail. The executable is unsigned.
 
-### Documentation
-
-- Rebuilt the README with a clear project overview and feature list
-- Documented the current alpha status and unsigned executable warning
-- Added next-build priorities and release expectations
-- Added contribution and security guidance
-
-### Planned for the next build
-
-- Test and stabilize advanced settings
-- Improve reliability across supported click settings
-- Publish a complete verified feature list
-- Sign the Windows executable when possible
-
-## 0.1 Alpha - 2026-07-28
-
-### Added
-
-- First public Windows alpha build
-- Core automatic clicking
-- Customizable click settings
-- Experimental advanced settings
-
-### Known limitations
-
-- Advanced settings were not fully tested
-- Some options may be unstable or non-functional
-- The executable is unsigned and may trigger antivirus warnings
+The release is available [here](https://github.com/maxblox2999/Legacy-Clicker/releases/tag/alpha_0.1).

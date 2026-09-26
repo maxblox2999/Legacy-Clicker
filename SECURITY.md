@@ -1,28 +1,5 @@
-# Security policy
+# Security
 
-## Reporting a vulnerability
+Report vulnerabilities through [GitHub private vulnerability reporting](https://github.com/maxblox2999/Legacy-Clicker/security/advisories/new), not a public issue. Include the affected version, reproduction steps, and any safe proof of concept. Do not include credentials or unrelated personal data.
 
-Do not open a public issue for security vulnerabilities.
-
-Report security problems through GitHub private vulnerability reporting on the repository Security page. Include:
-
-- A clear description of the issue
-- Affected Legacy Clicker version
-- Steps to reproduce it
-- Expected and actual behavior
-- Any safe proof-of-concept details
-
-Do not include passwords, tokens, personal data, or unrelated system files.
-
-## Supported versions
-
-Legacy Clicker is currently alpha software. Security fixes target the newest public build only.
-
-| Version | Supported |
-| --- | --- |
-| Latest alpha | Yes |
-| Older builds | No |
-
-## Release safety
-
-Only download executables from this repository's official releases page. Current builds may be unsigned until code signing is available.
+Only the latest published alpha is targeted for fixes. Download builds from the [official releases page](https://github.com/maxblox2999/Legacy-Clicker/releases).
