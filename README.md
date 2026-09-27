@@ -1,6 +1,6 @@
 <div align="center">
   <img width="619" height="124" alt="Legacy Clicker" src="https://github.com/user-attachments/assets/caf669b2-12f8-4d10-b202-a69be8ed9a1e">
-  <p>A small Windows auto-clicker by Max Bonello.</p>
+  <p>A small Windows auto-clicker by maxblox2999.</p>
 </div>
 
 ## Download
