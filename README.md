@@ -23,7 +23,7 @@
 
 Legacy Clicker is a Windows auto-clicker made to cover everything you'd normally need from one, with additional settings and macro-like functionality.
 
-It's still in early development. Some advanced settings are experimental and may not work properly yet.
+It's still in early development. All advanced settings are experimental and may not work properly yet.
 
 ## Features
 
