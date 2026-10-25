@@ -1,34 +1,103 @@
+
 <div align="center">
-  <img width="619" height="124" alt="Legacy Clicker" src="https://github.com/user-attachments/assets/caf669b2-12f8-4d10-b202-a69be8ed9a1e">
-  <p>A small Windows auto-clicker by maxblox2999.</p>
+
+<img width="619" height="124" alt="Legacy Clicker" src="https://github.com/user-attachments/assets/caf669b2-12f8-4d10-b202-a69be8ed9a1e">
+
+<br>
+
+**A Windows auto-clicker with customizable controls, advanced settings, and macro functionality.**
+
+![Version](https://img.shields.io/badge/Version-0.1_Alpha-orange?style=flat-square)
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows)
+![Development](https://img.shields.io/badge/Development-On_Hold-yellow?style=flat-square)
+
+<br>
+
+[**Download**](https://github.com/maxblox2999/Legacy-Clicker/releases/download/alpha_0.1/Legacy.Clicker.exe) · [Releases](https://github.com/maxblox2999/Legacy-Clicker/releases) · [Report a Bug](https://github.com/maxblox2999/Legacy-Clicker/issues)
+
 </div>
+
+---
+
+## About
+
+Legacy Clicker is a Windows auto-clicker made to cover everything you'd normally need from one, with additional settings and macro-like functionality.
+
+It's still in early development. Some advanced settings are experimental and may not work properly yet.
+
+## Features
+
+- Automatic mouse clicking
+- Adjustable click settings
+- Advanced controls and experimental options
+- Macro-like functionality
+
+---
 
 ## Download
 
-The current public build is [Legacy Clicker v0.1 alpha](https://github.com/maxblox2999/Legacy-Clicker/releases/tag/alpha_0.1).
+### Latest public release: v0.1 Alpha
 
-**[Download Legacy.Clicker.exe](https://github.com/maxblox2999/Legacy-Clicker/releases/download/alpha_0.1/Legacy.Clicker.exe)**
+[![Download Legacy Clicker](https://img.shields.io/badge/Download-Legacy_Clicker_v0.1-238636?style=for-the-badge&logo=github)](https://github.com/maxblox2999/Legacy-Clicker/releases/download/alpha_0.1/Legacy.Clicker.exe)
 
-| Build detail | Value |
-| --- | --- |
-| Published | July 28, 2026 |
-| Platform | Windows |
-| File size | 20.9 MB |
-| Code signature | Unsigned |
-| SHA-256 | `9e5239d09b0590d9617366f84e051fa42da1a399930871f5c672d42b643c1cb1` |
+| | |
+|---|---|
+| **Version** | 0.1 Alpha |
+| **Released** | July 28, 2026 |
+| **Platform** | Windows |
+| **Size** | 20.9 MB |
+| **Code signing** | Unsigned |
 
-## What it does
+<details>
+<summary><b>File verification (SHA-256)</b></summary>
 
-- Runs automatic mouse clicks
-- Lets you adjust click settings
-- Includes advanced settings that are still experimental
+<br>
 
-This repository distributes the compiled app and its documentation. The application source is not public.
+```text
+9e5239d09b0590d9617366f84e051fa42da1a399930871f5c672d42b643c1cb1
+```
 
-## Before running it
+You can check the downloaded file using PowerShell:
 
-The alpha executable is not code-signed, so Windows or antivirus software may show a warning. Check that the download URL belongs to `github.com/maxblox2999/Legacy-Clicker` and compare its SHA-256 hash with the value above.
+```powershell
+Get-FileHash .\Legacy.Clicker.exe -Algorithm SHA256
+```
 
-Advanced settings were not fully tested in this release. If something breaks, [open an issue](https://github.com/maxblox2999/Legacy-Clicker/issues) with your Windows version, the setting you used, and steps that reproduce the problem.
+The result should match the hash above.
 
-Security reports belong in [private vulnerability reporting](https://github.com/maxblox2999/Legacy-Clicker/security/advisories/new). See [CHANGELOG.md](CHANGELOG.md) for release history and [LICENSE](LICENSE) for the use and redistribution terms.
+</details>
+
+---
+
+## Known Issues
+
+Legacy Clicker is currently in alpha. Some settings haven't been fully tested, especially the advanced ones.
+
+If you run into a problem, [open an issue](https://github.com/maxblox2999/Legacy-Clicker/issues) and include what happened, your Windows version, and how to reproduce it.
+
+## Security
+
+The current build isn't digitally signed, so Windows SmartScreen or your antivirus may warn you when opening it.
+
+Only download from the [official releases page](https://github.com/maxblox2999/Legacy-Clicker/releases) and verify the file hash if needed.
+
+For security vulnerabilities, use [private vulnerability reporting](https://github.com/maxblox2999/Legacy-Clicker/security/advisories/new).
+
+---
+
+## Development Status
+
+![On Hold](https://img.shields.io/badge/Status-On_Hold-yellow?style=flat-square)
+![Not Discontinued](https://img.shields.io/badge/Discontinued-No-green?style=flat-square)
+
+Legacy Clicker isn't actively being developed right now, but it hasn't been discontinued. Development is currently on hold and may resume in the future.
+
+---
+
+<div align="center">
+
+[Changelog](CHANGELOG.md) · [License](LICENSE) · [Issues](https://github.com/maxblox2999/Legacy-Clicker/issues)
+
+<sub>Made by <a href="https://github.com/maxblox2999">maxblox2999</a></sub>
+
+</div>
