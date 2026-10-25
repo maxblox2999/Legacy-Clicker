@@ -1,50 +1,209 @@
-License Agreement for Legacy Clicker
+
+LEGACY CLICKER LICENSE AGREEMENT
 
 Copyright (c) 2026 Max. All rights reserved.
 
-1. Acceptance
+1. ACCEPTANCE
 
-By clicking "I Agree" or running the Software, you agree to this License. If you do not agree, do not download, install, or use the Software or its source code.
+By downloading, installing, accessing, or using Legacy Clicker ("Software"), including its source code, binaries, or modified versions, you agree to this License.
 
-2. Ownership
-Legacy Clicker and its entire codebase are owned solely by Max. The Software may be hosted or showcased under the organization name "maxblox2999," but that name conveys no ownership or licensing rights to whoever controls it. If control of the maxblox2999 name or accounts changes hands, this License and all rights under it remain with Max personally, not with the new controller of that name. Any licensing claim made by someone impersonating Max, or by anyone relying solely on control of the maxblox2999 name, is void. The canonical repository URL and the only valid contact method for this License are fixed to lunarlegacystudios@gmail.com regardless of who controls any GitHub org, repo, or account bearing the maxblox2999 name.
+If you do not agree, you must not download, install, access, possess, modify, distribute, or use the Software, its source code, or its binaries.
 
-3. Permitted Use
-You may download and run the compiled Software for personal, non-commercial use. "Non-commercial" means no monetary or in-kind gain of any form is derived from the Software or its use, including but not limited to sales, subscriptions, donations, ad revenue, sponsorships, or Patreon-style support tied to the Software.
+If you already have a copy and do not agree, you must stop using it and delete all copies under your control, except where applicable law provides otherwise.
 
-4. Restrictions
-Without Max's prior written permission (see Section 8), you may not:
-a) redistribute, mirror, sell, or re-upload the Software, its source, or binaries, except as expressly permitted for forks under Section 5;
-b) extract or reuse any code, assets, or modules in other projects, or create a derivative work that substantially replicates the Software's mechanics, features, or design in a new codebase;
-c) decompile, reverse-engineer, or disassemble the Software, including for testing, research, or security review, except to the extent such restriction is unenforceable under applicable law.
+2. OWNERSHIP
 
-5. Forks
-Forking is an express, limited exception to Section 4(a), permitted only under all of the following conditions:
-a) Clear credit to Max and Legacy Clicker in the fork's listing, README, and in-app credits.
-b) A permanent, visible watermark in the UI, present at all times the fork is running or distributed, not reducible, hidden, obscured, minimized, or styled to be unreadable, containing a working link to the canonical repository URL confirmed per Section 2.
-c) The fork itself may not be sold, mirrored elsewhere, or used to redistribute code outside the fork itself, and all other restrictions in Section 4 continue to apply to the fork.
-Failure to meet (a) or (b) revokes your fork's license immediately and entitles Max to request takedown.
+Legacy Clicker, its original source code, binaries, assets, and branding belong to Max.
 
-6. Termination
-Any violation of Section 4 gives Max the right to terminate your license upon written notice. For violations Max determines in good faith to be minor or disputed in good faith by you, you will have 7 days from notice to cure before termination takes effect; termination is immediate for repeat, willful, or non-curable violations (e.g. commercial redistribution, sale of the Software). Upon termination you must delete all copies in your possession. Violation of Section 5 terminates only the fork's license, per Section 5.
+Official repository:
+https://github.com/maxblox2999/Legacy-Clicker
 
-7. License Changes
-Max may update this License at any time. Material changes apply immediately and retroactively to all copies of the Software, including versions already downloaded or installed, regardless of which version's terms were in effect at the time you obtained them. There is no "locked-in" version of this License; your continued possession or use of the Software at any point constitutes agreement to the current License then in effect, even if it differs from the terms you originally agreed to.
+Ownership remains with Max regardless of who controls the repository, GitHub account, or organization.
 
-8. Contact and Permission Requests
-Requests for permission under Sections 4 or 5, and confirmation of the current canonical repository URL, must go through the fixed contact method in Section 2. Permission is only valid if given in writing (including email or written statement in the repository) by Max.
+Access to or control of the repository does not grant ownership or licensing authority.
 
-9. Fraudulent Copies
-Copies distributed under an altered or fake license are void and unauthorized. Max may pursue takedown requests and legal action against anyone distributing fraudulent copies, including but not limited to injunctive relief and damages. Anyone who obtains such a copy assumes full responsibility for any resulting harm (malware, account bans, etc.); no fake license terms shift liability to Max.
+Ownership can only be transferred through a valid written agreement authorized by Max.
 
-10. Account Safety
-This version removes heavy automation to reduce ban risk. Max is not responsible for actions taken against your accounts by third-party platforms or moderators. Automation features removed in this version may be reintroduced in a future update.
+3. PERMITTED USE
 
-11. Warranty Disclaimer
-THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. MAX IS NOT LIABLE FOR ANY DAMAGES ARISING FROM USE OF THE SOFTWARE.
+You may download and run the official compiled Software for personal, non-commercial use.
 
-12. Severability
-If any provision of this License is found unenforceable, the remaining provisions stay in effect.
+You may not sell, monetize, or commercially redistribute the Software without written permission from Max.
 
-13. License Text Protection
-This License's text and structure are themselves the copyrighted work of Max. You may not copy, adapt, or reuse this License's wording for any other project without Max's prior written permission. This restriction applies independently of any rights granted elsewhere in this License regarding the Software itself.
+Using the Software for unrelated personal activities does not automatically count as commercial use.
+
+You receive permission to use the Software, not ownership of it.
+
+4. RESTRICTIONS
+
+Unless Max grants written permission, Section 5 allows it, or applicable law requires otherwise, you may not:
+
+a) Sell, redistribute, mirror, or re-upload the Software or its binaries.
+
+b) Copy or reuse its protected code, assets, or other copyrighted materials in unrelated projects.
+
+c) Decompile, disassemble, reverse-engineer, or modify the compiled Software.
+
+d) Remove or hide copyright notices or required credits.
+
+e) Claim ownership of the Software or its original components.
+
+f) Distribute unauthorized modified versions.
+
+These restrictions do not apply to independently written software that merely has similar features.
+
+Any rights protected by applicable law remain unaffected.
+
+5. FORKS AND MODIFICATIONS
+
+Forks are allowed only when Max provides source code for modification or gives written permission.
+
+Publicly available binaries do not grant permission to reverse-engineer the Software.
+
+Authorized forks must follow these rules:
+
+a) Credit Max and Legacy Clicker in the repository description, README, and application credits.
+
+b) Display permanent, readable attribution within the application's interface.
+
+c) Include a working link to:
+https://github.com/maxblox2999/Legacy-Clicker
+
+d) Credits must remain clearly visible. They cannot be hidden, removed, obscured, reduced to an unreadable size, or disabled through settings.
+
+e) Clearly identify the project as a modified version of Legacy Clicker.
+
+f) Do not sell, monetize, or commercially distribute the fork without written permission.
+
+g) Distribution through the fork's own repository is allowed if all license conditions are followed.
+
+h) Preserve existing copyright notices.
+
+i) Modifications to the interface, features, and code are permitted within the authorized fork.
+
+Forking does not transfer ownership of the original Software.
+
+Violating these conditions may result in termination of permission to modify or distribute the fork.
+
+6. TERMINATION
+
+Max may terminate your license if you violate its terms.
+
+For violations that can reasonably be corrected, you will receive written notice and seven days to fix the issue.
+
+Serious, deliberate, repeated, or non-correctable violations may result in immediate termination, where legally permitted.
+
+After termination, you must stop the unauthorized activity and delete unauthorized copies.
+
+Termination of fork permissions does not automatically terminate permission to use an official, unmodified copy.
+
+7. LICENSE CHANGES
+
+Max may update this License.
+
+Existing releases remain under the terms that applied when they were obtained unless you agree to updated terms or applicable law provides otherwise.
+
+Updated terms may apply to future downloads, releases, and installations.
+
+Publishing a new License does not automatically cancel previously granted rights.
+
+8. PERMISSION REQUESTS
+
+Requests for commercial use, redistribution, or modification must be made through the official GitHub repository.
+
+Permission must be given in writing by Max or an authorized representative.
+
+Repository access or administrator status alone does not grant licensing authority.
+
+9. UNAUTHORIZED COPIES
+
+Unauthorized redistribution, modified ownership claims, or fake licenses may result in copyright takedown requests or legal action.
+
+Official downloads:
+https://github.com/maxblox2999/Legacy-Clicker/releases
+
+Max is not responsible for the authenticity or safety of unauthorized third-party copies, except where liability cannot legally be excluded.
+
+10. ACCOUNT SAFETY
+
+Legacy Clicker automates mouse input.
+
+You are responsible for following the rules of any application, game, website, or service where you use it.
+
+Using automation may result in account restrictions, suspensions, or bans.
+
+Max does not guarantee compatibility with third-party rules and is not responsible for penalties caused by prohibited use, to the extent permitted by law.
+
+11. WARRANTY AND LIABILITY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+MAX DOES NOT GUARANTEE THAT THE SOFTWARE WILL ALWAYS WORK, REMAIN ERROR-FREE, OR BE COMPATIBLE WITH EVERY SYSTEM.
+
+MAX IS NOT LIABLE FOR INDIRECT OR CONSEQUENTIAL DAMAGES ARISING FROM THE SOFTWARE, TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+THIS LICENSE DOES NOT REMOVE RIGHTS OR PROTECTIONS THAT CANNOT LEGALLY BE EXCLUDED.
+
+12. SEVERABILITY
+
+If any part of this License is unenforceable, the remaining terms continue to apply.
+
+13. LICENSE TEXT
+
+Original copyrightable wording in this License belongs to Max.
+
+You may not falsely present a modified license as an official Legacy Clicker license.
+
+This does not restrict standard legal wording, general legal concepts, or uses permitted by law.
+
+14. RESERVED RIGHTS
+
+All rights not expressly granted remain with Max.
+
+You may not use Legacy Clicker's name, branding, or assets to falsely claim an official connection.
+
+Authorized forks may reference the original project for attribution.
+
+15. OFFICIAL REPOSITORY
+
+https://github.com/maxblox2999/Legacy-Clicker
+
+16. IMPERSONATION AND FALSE OWNERSHIP CLAIMS
+
+Having the name "Max" does not make someone the owner of Legacy Clicker.
+
+Anyone claiming to be Max or the copyright owner must have legitimate proof of ownership or authorization. A matching name, username, profile, email address, or control of a GitHub account is not sufficient proof.
+
+Impersonating Max, falsely claiming ownership, issuing unauthorized licenses, or attempting to transfer ownership without permission is prohibited.
+
+Deliberately making false ownership claims to obtain control, money, or licensing rights may constitute fraud or other unlawful conduct, depending on applicable law.
+
+Max reserves the right to challenge fraudulent claims, request removal of infringing content, revoke permissions obtained through deception, and pursue legal action where justified.
+
+False claims do not transfer ownership or grant any rights to the Software.
+
+17. CONFIGURATIONS, VIDEOS, AND OFFICIAL DOWNLOADS
+
+You are allowed to create, modify, share, and distribute configuration files for Legacy Clicker, provided they do not contain copyrighted code or assets taken from the Software without permission.
+
+Creating tutorials, reviews, demonstrations, and videos showing Legacy Clicker or custom configurations is allowed. You may also share your configurations in these videos.
+
+You may provide links that redirect users to the official repository or official release pages to download Legacy Clicker.
+
+The only official repository is:
+https://github.com/maxblox2999/Legacy-Clicker
+
+The only official download page is:
+https://github.com/maxblox2999/Legacy-Clicker/releases
+
+Downloads hosted on other websites, file-sharing services, repositories, or third-party platforms are not official and are not authorized unless Max has explicitly granted permission.
+
+Unauthorized redistribution may violate this License and applicable copyright law.
+
+Third-party downloads are not monitored, maintained, verified, or endorsed by Max. They may be outdated, modified, malicious, or falsely presented as legitimate copies.
+
+Max does not guarantee the safety or authenticity of downloads obtained from unofficial sources and accepts no responsibility for resulting damage to the extent permitted by applicable law.
+
+Creating configurations, sharing configuration files, publishing videos, and linking to official downloads do not require additional permission, provided all other applicable terms of this License are followed.
+
+Copyright (c) 2026 Max. All rights reserved.
