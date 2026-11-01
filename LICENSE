@@ -1,0 +1,49 @@
+License Agreement for Legacy Clicker
+
+Copyright (c) 2026 Max Bonello (LunarLegacyStudios). All rights reserved.
+
+1. Acceptance
+By clicking "I Agree," creating an account, or running the Software, you agree to this License. If you do not agree, do not download, install, or use the Software or its source code.
+
+2. Ownership
+Legacy Clicker and its entire codebase are owned solely by Max Bonello. The Software may be hosted or showcased under the organization name "LunarLegacyStudios," but that name conveys no ownership or licensing rights to whoever controls it. If control of the LunarLegacyStudios name or accounts changes hands, this License and all rights under it remain with Max Bonello personally, not with the new controller of that name. Any licensing claim made by someone impersonating Max Bonello, or by anyone relying solely on control of the LunarLegacyStudios name, is void. The canonical repository URL and the only valid contact method for this License are fixed to lunarlegacystudios@gmail.com regardless of who controls any GitHub org, repo, or account bearing the LunarLegacyStudios name.
+
+3. Permitted Use
+You may download and run the compiled Software for personal, non-commercial use. "Non-commercial" means no monetary or in-kind gain of any form is derived from the Software or its use, including but not limited to sales, subscriptions, donations, ad revenue, sponsorships, or Patreon-style support tied to the Software.
+
+4. Restrictions
+Without Max Bonello's prior written permission (see Section 8), you may not:
+a) redistribute, mirror, sell, or re-upload the Software, its source, or binaries, except as expressly permitted for forks under Section 5;
+b) extract or reuse any code, assets, or modules in other projects, or create a derivative work that substantially replicates the Software's mechanics, features, or design in a new codebase;
+c) decompile, reverse-engineer, or disassemble the Software, including for testing, research, or security review, except to the extent such restriction is unenforceable under applicable law.
+
+5. Forks
+Forking is an express, limited exception to Section 4(a), permitted only under all of the following conditions:
+a) Clear credit to Max Bonello and Legacy Clicker in the fork's listing, README, and in-app credits.
+b) A permanent, visible watermark in the UI, present at all times the fork is running or distributed, not reducible, hidden, obscured, minimized, or styled to be unreadable, containing a working link to the canonical repository URL confirmed per Section 2.
+c) The fork itself may not be sold, mirrored elsewhere, or used to redistribute code outside the fork itself, and all other restrictions in Section 4 continue to apply to the fork.
+Failure to meet (a) or (b) revokes your fork's license immediately and entitles Max Bonello to request takedown.
+
+6. Termination
+Any violation of Section 4 gives Max Bonello the right to terminate your license upon written notice. For violations Max Bonello determines in good faith to be minor or disputed in good faith by you, you will have 7 days from notice to cure before termination takes effect; termination is immediate for repeat, willful, or non-curable violations (e.g. commercial redistribution, sale of the Software). Upon termination you must delete all copies in your possession. Violation of Section 5 terminates only the fork's license, per Section 5.
+
+7. License Changes
+Max Bonello may update this License at any time. Material changes apply immediately and retroactively to all copies of the Software, including versions already downloaded or installed, regardless of which version's terms were in effect at the time you obtained them. There is no "locked-in" version of this License; your continued possession or use of the Software at any point constitutes agreement to the current License then in effect, even if it differs from the terms you originally agreed to.
+
+8. Contact and Permission Requests
+Requests for permission under Sections 4 or 5, and confirmation of the current canonical repository URL, must go through the fixed contact method in Section 2. Permission is only valid if given in writing (including email or written statement in the repository) by Max Bonello.
+
+9. Fraudulent Copies
+Copies distributed under an altered or fake license are void and unauthorized. Max Bonello may pursue takedown requests and legal action against anyone distributing fraudulent copies, including but not limited to injunctive relief and damages. Anyone who obtains such a copy assumes full responsibility for any resulting harm (malware, account bans, etc.); no fake license terms shift liability to Max Bonello.
+
+10. Account Safety
+This version removes heavy automation to reduce ban risk. LunarLegacyStudios is not responsible for actions taken against your accounts by third-party platforms or moderators. Automation features removed in this version may be reintroduced in a future update.
+
+11. Warranty Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. MAX BONELLO IS NOT LIABLE FOR ANY DAMAGES ARISING FROM USE OF THE SOFTWARE.
+
+12. Severability
+If any provision of this License is found unenforceable, the remaining provisions stay in effect.
+
+13. License Text Protection
+This License's text and structure are themselves the copyrighted work of Max Bonello. You may not copy, adapt, or reuse this License's wording for any other project without Max Bonello's prior written permission. This restriction applies independently of any rights granted elsewhere in this License regarding the Software itself.
