@@ -1,0 +1,96 @@
+name: Windows release
+
+on:
+  push:
+    branches: [main]
+    paths: ['.delivery/**', '.github/workflows/windows.yml', 'scripts/sign.ps1']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: windows-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: windows-2022
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify and unpack compiled app
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $metadata = Get-Content .delivery/release.json -Raw | ConvertFrom-Json
+          if ($metadata.version -notmatch '^\d+\.\d+\.\d+(-[a-zA-Z0-9.]+)?$') { throw 'Invalid release version' }
+          $stream = [IO.File]::Create((Join-Path $PWD 'payload.zip'))
+          try {
+            foreach ($part in Get-ChildItem .delivery/*.part | Sort-Object Name) {
+              $bytes = [IO.File]::ReadAllBytes($part.FullName)
+              $stream.Write($bytes, 0, $bytes.Length)
+            }
+          } finally { $stream.Dispose() }
+          $payload = Get-Item payload.zip
+          if ($payload.Length -ne $metadata.size) { throw 'Payload size mismatch' }
+          if ((Get-FileHash payload.zip -Algorithm SHA256).Hash -ne $metadata.sha256) { throw 'Payload hash mismatch' }
+          Expand-Archive -LiteralPath payload.zip -DestinationPath staging
+          if (!(Test-Path 'staging/Legacy Clicker/Legacy Clicker.exe')) { throw 'Executable missing' }
+          $forbidden = Get-ChildItem staging -Recurse -File | Where-Object Extension -In '.cpp','.h','.py','.pdb','.pfx','.key','.pem'
+          if ($forbidden) { throw 'Source, debug symbols or private key in package' }
+          "RELEASE_VERSION=$($metadata.version)" >> $env:GITHUB_ENV
+      - name: Sign as maxblox2999
+        shell: pwsh
+        run: ./scripts/sign.ps1 -Executable 'staging/Legacy Clicker/Legacy Clicker.exe'
+      - name: Package and write update manifest
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          New-Item -ItemType Directory -Path release | Out-Null
+          $zip = 'release/Legacy-Clicker-windows-x64.zip'
+          Compress-Archive -LiteralPath 'staging/Legacy Clicker' -DestinationPath $zip
+          $exe = Get-Item 'staging/Legacy Clicker/Legacy Clicker.exe'
+          $packageHash = (Get-FileHash $zip -Algorithm SHA256).Hash.ToLowerInvariant()
+          $exeHash = (Get-FileHash $exe.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          [ordered]@{
+            version = $env:RELEASE_VERSION
+            package_url = "https://github.com/maxblox2999/Legacy-Clicker/releases/download/v$env:RELEASE_VERSION/Legacy-Clicker-windows-x64.zip"
+            package_sha256 = $packageHash
+            executable_size = $exe.Length
+            executable_sha256 = $exeHash
+          } | ConvertTo-Json | Set-Content release/update-manifest.json -Encoding utf8NoBOM
+          "$packageHash  Legacy-Clicker-windows-x64.zip" | Set-Content release/SHA256SUMS.txt -Encoding ascii
+      - name: Publish beta
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $tag = "v$env:RELEASE_VERSION"
+          @'
+          Private Beta TestBuild. Unzip the Windows package and open Legacy Clicker.exe.
+
+          Adds a 34-block automation editor, image targets, project recovery, coordinate undo/redo, restored UI animations, and verified updates.
+
+          END stops automation or editor testing. The editor's Guide button covers the basics.
+
+          Signed as maxblox2999 with a temporary self-signed certificate. Windows may still show an untrusted-publisher warning.
+          '@ | Set-Content release-notes.md -Encoding utf8NoBOM
+          $assets = @(Get-ChildItem release -File | Select-Object -ExpandProperty FullName)
+          gh release view $tag *> $null
+          if ($LASTEXITCODE -eq 0) {
+            gh release upload $tag @assets --clobber
+          } else {
+            gh release create $tag @assets --target $env:GITHUB_SHA --prerelease --title 'Private Beta TestBuild' --notes-file release-notes.md
+          }
+          if ($LASTEXITCODE -ne 0) { throw 'Release publication failed' }
+      - name: Retain signed package
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: Legacy-Clicker-windows-x64
+          path: release/*
+          retention-days: 30
+
