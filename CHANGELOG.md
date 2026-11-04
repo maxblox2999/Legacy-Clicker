@@ -1,5 +1,11 @@
 # Changes
 
+## 0.3.0-beta.3
+
+- Neutral dark colors throughout the clicker, editor, fields and menus.
+- Smaller status area and corner radii; removed the decorative empty-state icon and clipped footer hint.
+- Speed stays centered when the settings scrollbar range changes.
+
 ## 0.3.0-beta.2
 
 - Removed idle outlines from controls, coordinate rows and editor blocks.
