@@ -1,5 +1,12 @@
 # Changes
 
+## 0.3.0-beta.2
+
+- Removed idle outlines from controls, coordinate rows and editor blocks.
+- Replaced the pale green accent with muted copper and warm dark surfaces.
+- Kept keyboard focus rings and the existing animations.
+- Checked native UI and portable startup on a separate Windows desktop, without opening test windows on the user's desktop.
+
 ## 0.3.0-beta.1
 
 - Centered click speed, animated number changes and ticks, expanding scrollbars, and restored social icons.
