@@ -36,3 +36,6 @@ bug fixes
 testing
 anything not listed here is entierly coded by me.
 [maxblox2999](https://github.com/maxblox2999) . [Changes](CHANGELOG.md) . [License](LICENSE)
+
+
+future plans: Legacy clicker to be rebranded to Revolution Clicker
