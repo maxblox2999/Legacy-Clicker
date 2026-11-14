@@ -63,28 +63,22 @@ jobs:
             executable_sha256 = $exeHash
           } | ConvertTo-Json | Set-Content release/update-manifest.json -Encoding utf8NoBOM
           "$packageHash  Legacy-Clicker-windows-x64.zip" | Set-Content release/SHA256SUMS.txt -Encoding ascii
-      - name: Publish beta
+      - name: Publish alpha
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           $ErrorActionPreference = 'Stop'
           $tag = "v$env:RELEASE_VERSION"
-          @'
-          Private Beta TestBuild. Unzip the Windows package and open Legacy Clicker.exe.
-
-          Adds a 34-block automation editor, image targets, project recovery, coordinate undo/redo, restored UI animations, and verified updates.
-
-          END stops automation or editor testing. The editor's Guide button covers the basics.
-
-          Signed as maxblox2999 with a temporary self-signed certificate. Windows may still show an untrusted-publisher warning.
-          '@ | Set-Content release-notes.md -Encoding utf8NoBOM
+          $metadata = Get-Content .delivery/release.json -Raw | ConvertFrom-Json
           $assets = @(Get-ChildItem release -File | Select-Object -ExpandProperty FullName)
           gh release view $tag *> $null
           if ($LASTEXITCODE -eq 0) {
             gh release upload $tag @assets --clobber
+            if ($LASTEXITCODE -ne 0) { throw 'Release asset upload failed' }
+            gh release edit $tag --prerelease --latest=false --title $metadata.title --notes-file .delivery/notes.md
           } else {
-            gh release create $tag @assets --target $env:GITHUB_SHA --prerelease --title 'Private Beta TestBuild' --notes-file release-notes.md
+            gh release create $tag @assets --target $env:GITHUB_SHA --prerelease --latest=false --title $metadata.title --notes-file .delivery/notes.md
           }
           if ($LASTEXITCODE -ne 0) { throw 'Release publication failed' }
       - name: Retain signed package

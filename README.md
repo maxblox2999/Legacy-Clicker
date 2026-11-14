@@ -7,7 +7,7 @@ Cant find a clicker that covers stuff that others do not provide? **Let Legacy C
 **You have the right to remain idle.**
 
 [![Build](https://github.com/maxblox2999/Legacy-Clicker/actions/workflows/windows.yml/badge.svg)](https://github.com/maxblox2999/Legacy-Clicker/actions)
-[![Beta release](https://img.shields.io/github/v/release/maxblox2999/Legacy-Clicker?include_prereleases&style=flat-square&color=8957e5&logo=github&logoColor=white)](https://github.com/maxblox2999/Legacy-Clicker/releases)
+[![Alpha release](https://img.shields.io/github/v/release/maxblox2999/Legacy-Clicker?include_prereleases&style=flat-square&color=8957e5&logo=github&logoColor=white)](https://github.com/maxblox2999/Legacy-Clicker/releases)
 ![Windows](.github/badges/windows.svg)
 
 **[Download](https://github.com/maxblox2999/Legacy-Clicker/releases) · [Report a bug](https://github.com/maxblox2999/Legacy-Clicker/issues)**
@@ -24,7 +24,7 @@ Cant find a clicker that covers stuff that others do not provide? **Let Legacy C
 
 ## Support
 
-**Windows 64-bit.** Test build. Found a bug? [Tell me what broke](https://github.com/maxblox2999/Legacy-Clicker/issues).
+**Windows 64-bit.** Alpha release. Found a bug? [Tell me what broke](https://github.com/maxblox2999/Legacy-Clicker/issues).
 
 Application source is maintained privately. This repository hosts downloads and release information.
 

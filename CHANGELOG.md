@@ -1,5 +1,11 @@
 # Changes
 
+## 0.4.0-alpha.1
+
+- Free block canvas with nested logic, image targets and project files.
+- Clearer clicker controls, point selection and coordinate history.
+- Restored GitHub and YouTube animations; public alpha update channel.
+
 ## 0.3.0-beta.3
 
 - Neutral dark colors throughout the clicker, editor, fields and menus.
