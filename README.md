@@ -2,15 +2,16 @@
 
 # Legacy Clicker
 
-Cant find a clicker that covers stuff that others do not provide? **Let Legacy Clicker take the job.**
+Cant find a clicker that covers stuff that others do not provide?
+**Let Legacy Clicker fix that.**
 
-**You have the right to remain idle.**
+**You have the right to macro or whatever you do.**
 
 [![Build](https://github.com/maxblox2999/Legacy-Clicker/actions/workflows/windows.yml/badge.svg)](https://github.com/maxblox2999/Legacy-Clicker/actions)
 [![Alpha release](https://img.shields.io/github/v/release/maxblox2999/Legacy-Clicker?include_prereleases&style=flat-square&color=8957e5&logo=github&logoColor=white)](https://github.com/maxblox2999/Legacy-Clicker/releases)
 ![Windows](.github/badges/windows.svg)
 
-**[Download](https://github.com/maxblox2999/Legacy-Clicker/releases) · [Report a bug](https://github.com/maxblox2999/Legacy-Clicker/issues)**
+**[Download](https://github.com/maxblox2999/Legacy-Clicker/releases) . [Report a bug](https://github.com/maxblox2999/Legacy-Clicker/issues)**
 
 </div>
 
@@ -29,5 +30,9 @@ Cant find a clicker that covers stuff that others do not provide? **Let Legacy C
 Application source is maintained privately. This repository hosts downloads and release information.
 
 ---
-
-[maxblox2999](https://github.com/maxblox2999) · [Changes](CHANGELOG.md) · [License](LICENSE)
+project uses ai for everything listed ONLY:
+entire interface
+bug fixes 
+testing
+anything not listed here is entierly coded by me.
+[maxblox2999](https://github.com/maxblox2999) . [Changes](CHANGELOG.md) . [License](LICENSE)
